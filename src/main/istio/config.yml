@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: microprofile-config-istio-configmap
+  namespace: default
+data:
+  EXAMPLE_LANGUAGE-STRING: pt
